@@ -5,8 +5,114 @@
 body{
     background: rgb(242, 19, 56);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
+    font-size: 1.3rem;
+
+}
+
+.tarjeta{
+    position: relative;
+    top: 30vh;
+    width: 405px;
+    height: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.tarjeta_encabezado{
+    position: relative;
+    height: 120px;
+    text-align: center;
+}
+.tarjeta_encabezado-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.tarjeta_encabezado-perfil{
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background-color: white;
+    width: 50%;
+
+}
+.tarjeta_body{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-bottom: 2px solid rgb(0 0 0/0.1);
+}
+.caja_text{
+    margin: 0;
+    margin-bottom: 0.5em;
+    color: hsl(227, 10%, 46%);
+}
+.caja_text_nombre{
+    margin: 0;
+    margin-bottom: 0.5em;
+    padding-top: 30%;
+    color: rgb(215, 80, 12);
+    font-family:fantasy;
+}
+.caja_text--light{
+    color: rgb(215, 80, 12);
+}
+.tarjeta_footer{
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    text-align: center;
+}
+.caja_div{
+    display:inline-block;
+    margin:0 0.5em;
+    width: 100px;
+    text-align: center;
+    padding-bottom: 10%;
+}
+.caja_fb{
+    margin-bottom: .5em;
+    font-size: 1.8rem;
+}
+.boton_uno{
+    margin-left: 15px;
+    padding-left: 40px;
+    padding-right: 25PX;
+    border-radius: 35px;
+    border-color: rgb(249, 130, 26);
+    background: rgb(245, 152, 39); 
+    color: white;
+    font-family:sans-serif;
+    width:40%;
+    flex-grow:initial;
+    
+}
+
+.boton_dos{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 15px;
+    border-radius: 35px;
+    border-color: rgb(249, 130, 26);
+    background: rgb(245, 152, 39); 
+    color: white;
+    font-family:sans-serif;
+    
+}
+.content{
+    display: flex;
+    margin-bottom: 10PX;
+    width: 75%;
 }
 
 
-/* dregradelineal-- para degradar el fondo de color */.
+/* dregradeinlineal-- para degradar el fondo de color */
