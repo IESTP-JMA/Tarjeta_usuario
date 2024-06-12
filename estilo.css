@@ -21,6 +21,11 @@ body{
     overflow: hidden;
 
 }
+.tarjeta:hover{
+    background: rgb(243, 238, 224);
+    width: 410px;
+    box-shadow: -5px 10px 20px rgb(243, 238, 224);
+}
 .tarjeta_encabezado{
     position: relative;
     height: 120px;
@@ -68,7 +73,7 @@ body{
 }
 .tarjeta_footer{
     position: absolute;
-    bottom: 35px;
+    bottom: 50px;
     width: 100%;
     text-align: center;
 }
@@ -76,17 +81,22 @@ body{
     display:inline-block;
     margin:0 0.5em;
     width: 100px;
+    height: 10px;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
+    background: rgb(243, 217, 175);
+    border-radius: 10px;
+    
 }
 .caja_fb{
-    margin-bottom: .5em;
+    margin-bottom:0 0.5em;
     font-size: 1.8rem;
 }
 .boton_uno{
     margin-left: 15px;
     padding-left: 40px;
     padding-right: 25PX;
+    margin-top: 30px;
     border-radius: 35px;
     border-color: rgb(249, 130, 26);
     background: rgb(245, 152, 39); 
@@ -101,6 +111,7 @@ body{
     padding-left: 25px;
     padding-right: 25px;
     margin-left: 15px;
+    margin-top: 30px;
     border-radius: 35px;
     border-color: rgb(249, 130, 26);
     background: rgb(245, 152, 39); 
@@ -113,6 +124,4 @@ body{
     margin-bottom: 10PX;
     width: 75%;
 }
-
-
 /* dregradeinlineal-- para degradar el fondo de color */
